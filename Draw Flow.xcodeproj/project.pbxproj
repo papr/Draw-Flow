@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E382E21152C37350005F3FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E382E20152C37350005F3FD /* UIKit.framework */; };
+		6E382E23152C37350005F3FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E382E22152C37350005F3FD /* Foundation.framework */; };
+		6E382E25152C37350005F3FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E382E24152C37350005F3FD /* CoreGraphics.framework */; };
+		6E382E27152C37350005F3FD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E382E26152C37350005F3FD /* CoreData.framework */; };
+		6E382E2D152C37350005F3FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E382E2B152C37350005F3FD /* InfoPlist.strings */; };
+		6E382E2F152C37350005F3FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E382E2E152C37350005F3FD /* main.m */; };
+		6E382E33152C37350005F3FD /* DFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E382E32152C37350005F3FD /* DFAppDelegate.m */; };
+		6E382E36152C37360005F3FD /* Draw_Flow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E382E34152C37360005F3FD /* Draw_Flow.xcdatamodeld */; };
+		6E382E39152C37360005F3FD /* DFMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E382E38152C37360005F3FD /* DFMasterViewController.m */; };
+		6E382E3C152C37360005F3FD /* DFDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E382E3B152C37360005F3FD /* DFDetailViewController.m */; };
+		6E382E3F152C37360005F3FD /* DFMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E382E3D152C37360005F3FD /* DFMasterViewController.xib */; };
+		6E382E42152C37360005F3FD /* DFDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E382E40152C37360005F3FD /* DFDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E382E1C152C37350005F3FD /* Draw Flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Draw Flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E382E20152C37350005F3FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6E382E22152C37350005F3FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6E382E24152C37350005F3FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6E382E26152C37350005F3FD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6E382E2A152C37350005F3FD /* Draw Flow-Info.plist */ = {isa = PBXFileReference; path = "Draw Flow-Info.plist"; sourceTree = "<group>"; };
+		6E382E2C152C37350005F3FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E382E2E152C37350005F3FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E382E30152C37350005F3FD /* Draw Flow-Prefix.pch */ = {isa = PBXFileReference; path = "Draw Flow-Prefix.pch"; sourceTree = "<group>"; };
+		6E382E31152C37350005F3FD /* DFAppDelegate.h */ = {isa = PBXFileReference; path = DFAppDelegate.h; sourceTree = "<group>"; };
+		6E382E32152C37350005F3FD /* DFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFAppDelegate.m; sourceTree = "<group>"; };
+		6E382E35152C37360005F3FD /* Draw_Flow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Draw_Flow.xcdatamodel; sourceTree = "<group>"; };
+		6E382E37152C37360005F3FD /* DFMasterViewController.h */ = {isa = PBXFileReference; path = DFMasterViewController.h; sourceTree = "<group>"; };
+		6E382E38152C37360005F3FD /* DFMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFMasterViewController.m; sourceTree = "<group>"; };
+		6E382E3A152C37360005F3FD /* DFDetailViewController.h */ = {isa = PBXFileReference; path = DFDetailViewController.h; sourceTree = "<group>"; };
+		6E382E3B152C37360005F3FD /* DFDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFDetailViewController.m; sourceTree = "<group>"; };
+		6E382E3E152C37360005F3FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DFMasterViewController.xib; sourceTree = "<group>"; };
+		6E382E41152C37360005F3FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DFDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E382E19152C37350005F3FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E382E21152C37350005F3FD /* UIKit.framework in Frameworks */,
+				6E382E23152C37350005F3FD /* Foundation.framework in Frameworks */,
+				6E382E25152C37350005F3FD /* CoreGraphics.framework in Frameworks */,
+				6E382E27152C37350005F3FD /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E382E11152C37350005F3FD = {
+			isa = PBXGroup;
+			children = (
+				6E382E28152C37350005F3FD /* Draw Flow */,
+				6E382E1F152C37350005F3FD /* Frameworks */,
+				6E382E1D152C37350005F3FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E382E1D152C37350005F3FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E382E1C152C37350005F3FD /* Draw Flow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E382E1F152C37350005F3FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E382E20152C37350005F3FD /* UIKit.framework */,
+				6E382E22152C37350005F3FD /* Foundation.framework */,
+				6E382E24152C37350005F3FD /* CoreGraphics.framework */,
+				6E382E26152C37350005F3FD /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E382E28152C37350005F3FD /* Draw Flow */ = {
+			isa = PBXGroup;
+			children = (
+				6E382E31152C37350005F3FD /* DFAppDelegate.h */,
+				6E382E32152C37350005F3FD /* DFAppDelegate.m */,
+				6E382E37152C37360005F3FD /* DFMasterViewController.h */,
+				6E382E38152C37360005F3FD /* DFMasterViewController.m */,
+				6E382E3A152C37360005F3FD /* DFDetailViewController.h */,
+				6E382E3B152C37360005F3FD /* DFDetailViewController.m */,
+				6E382E3D152C37360005F3FD /* DFMasterViewController.xib */,
+				6E382E40152C37360005F3FD /* DFDetailViewController.xib */,
+				6E382E34152C37360005F3FD /* Draw_Flow.xcdatamodeld */,
+				6E382E29152C37350005F3FD /* Supporting Files */,
+			);
+			path = "Draw Flow";
+			sourceTree = "<group>";
+		};
+		6E382E29152C37350005F3FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E382E2A152C37350005F3FD /* Draw Flow-Info.plist */,
+				6E382E2B152C37350005F3FD /* InfoPlist.strings */,
+				6E382E2E152C37350005F3FD /* main.m */,
+				6E382E30152C37350005F3FD /* Draw Flow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E382E1B152C37350005F3FD /* Draw Flow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E382E45152C37360005F3FD /* Build configuration list for PBXNativeTarget "Draw Flow" */;
+			buildPhases = (
+				6E382E18152C37350005F3FD /* Sources */,
+				6E382E19152C37350005F3FD /* Frameworks */,
+				6E382E1A152C37350005F3FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Draw Flow";
+			productName = "Draw Flow";
+			productReference = 6E382E1C152C37350005F3FD /* Draw Flow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E382E13152C37350005F3FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DF;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Softwarehaus Kassel";
+			};
+			buildConfigurationList = 6E382E16152C37350005F3FD /* Build configuration list for PBXProject "Draw Flow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6E382E11152C37350005F3FD;
+			productRefGroup = 6E382E1D152C37350005F3FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E382E1B152C37350005F3FD /* Draw Flow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E382E1A152C37350005F3FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E382E2D152C37350005F3FD /* InfoPlist.strings in Resources */,
+				6E382E3F152C37360005F3FD /* DFMasterViewController.xib in Resources */,
+				6E382E42152C37360005F3FD /* DFDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E382E18152C37350005F3FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E382E2F152C37350005F3FD /* main.m in Sources */,
+				6E382E33152C37350005F3FD /* DFAppDelegate.m in Sources */,
+				6E382E36152C37360005F3FD /* Draw_Flow.xcdatamodeld in Sources */,
+				6E382E39152C37360005F3FD /* DFMasterViewController.m in Sources */,
+				6E382E3C152C37360005F3FD /* DFDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E382E2B152C37350005F3FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E382E2C152C37350005F3FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6E382E3D152C37360005F3FD /* DFMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E382E3E152C37360005F3FD /* en */,
+			);
+			name = DFMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		6E382E40152C37360005F3FD /* DFDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E382E41152C37360005F3FD /* en */,
+			);
+			name = DFDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E382E43152C37360005F3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6E382E44152C37360005F3FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E382E46152C37360005F3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Draw Flow/Draw Flow-Prefix.pch";
+				INFOPLIST_FILE = "Draw Flow/Draw Flow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6E382E47152C37360005F3FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Draw Flow/Draw Flow-Prefix.pch";
+				INFOPLIST_FILE = "Draw Flow/Draw Flow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E382E16152C37350005F3FD /* Build configuration list for PBXProject "Draw Flow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E382E43152C37360005F3FD /* Debug */,
+				6E382E44152C37360005F3FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E382E45152C37360005F3FD /* Build configuration list for PBXNativeTarget "Draw Flow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E382E46152C37360005F3FD /* Debug */,
+				6E382E47152C37360005F3FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6E382E34152C37360005F3FD /* Draw_Flow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6E382E35152C37360005F3FD /* Draw_Flow.xcdatamodel */,
+			);
+			currentVersion = 6E382E35152C37360005F3FD /* Draw_Flow.xcdatamodel */;
+			path = Draw_Flow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6E382E13152C37350005F3FD /* Project object */;
+}
